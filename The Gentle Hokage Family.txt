@@ -3,49 +3,80 @@
   <center> 
   <head>
   <style>
+    .header {
+       background-color:#FBF8F1;
+       height: 100px;
+       text-align: center;
+       padding: 20px;
+       padding-bottom: 150px;
+      
+    
+       
+       }
+    
+    .left-col {
+      background-color:#85F4FF;
+      text-align: left;
+      width: 30%  
+      padding: 30px;
+    
+     }
+    
+    .right-col {
+       background-color:#EFFFFD;
+       width:25%
+       float: left;
+     
+    .footer {
+        text-align:center;
+}
+      
+    }
   ul {
      list-style-type: none;
      margin: 0;
      padding: 0;
 }
+
+
   </style>
 
-    <img src="GHlogo.jpg" alt="GH Logo" width="75" height ="75"> </center>=
-    <title>The Gentle Hokage Family</title>
-  </head> 
+    
   </center>
-  <body style="background-color:lightcyan;"> 
-    <center>  
-      <h1 style="color:deepskyblue;font-size:250%">The Gentle Hokage Family</h1> 
-      <h3 style="color:steelblue;"> Support each other. Build each other. </h3> 
-    </center>
-    <center>
+  <center>  <title>The Gentle Hokage Family</title>
+   </head> 
+  </center>
+  <body style="background-color:#D8E3E7">
+   
+    <div class="header">
+      <img src="GHlogocircle.png" alt="GH Logo" width="100" height ="100"> 
+      <h1 style="color:#42C2FF;font-size:250%">The Gentle Hokage Family</h1> 
+      </div>
+    <div class="left-col"> 
+     <ul> 
+      <li> <a href="Objective.html" style="color:#61A4BC; font-size:200%"> Objectives </a>
+       <li> <a href="Members.html" style="color:#61A4BC; font-size:200%"> Members </a> 
+       <li> <a href="Events.html" style="color:#61A4BC; font-size:200%"> GH Events </a> 
+      <li> <a href="About.html" style="color:#61A4BC; font-size:200%"> 
+About </a>
+    </ul>
+     </div>
+    <div class="right-col">  
       <p style="font-size:30px;color:darkcyan">The Gentle Hokage Family is a group of individual 
         that met in <a href="https://kumu.ph/"> Kumu app.</a> It was created by group of gifters 
         and supporters that aim to support aspiring streamers. It is where the gifters, 
         supporters and streamers meet each other. </p> 
-     </center>
+    
      <hr size="3" noshade>
      
-    <ul> 
-       <li> <a href="Objective.html" style="color:deepskyblue; font-size:200%"> Objectives </a>
-       <li> <a href="Founders.html" style="color:deepskyblue; font-size:200%"> Founders </a> 
-       <li> <a href="Members.html" style="color:deepskyblue; font-size:200%"> Members </a> 
-       <li> <a href="Events.html" style="color:deepskyblue; font-size:200%"> GH Events </a> 
-    </ul>
-   
+      </div>
+    <div class="footer">  <h3 style="color:#5B7DB1;"> Support each other. Build each other. </h3>
+      </div>
 
+     
+   
+   
 
 </body>
     
        
-       
-       
-      
-      
-         
-   
- 
-
-
-
