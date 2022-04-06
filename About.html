@@ -1,51 +1,107 @@
 <!DOCTYPE html>
-<html>  
-<head> 
-    <title>About </title>
-    <style>
-        body {
-            background-image:;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-       
-    </style>
-</head>
+<html>
+  <head>
+  <title>The Gentle Hokage Family</title>
+     <meta charset="utf-8">
+ 
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      background: #61A4BC;
+      font-family: Arial, Helvetica, sans-serif;
+     
+    }
+    header {
+      width: 100%;
+      height:300px;
+      font-size: 30px;
+      text-align:center;
+      background: #effffd;
+      color: #42c2ff;
+      position: relative;
+      padding:30px;
 
-
-<body>
-    <p  style="font-size:30px;color:darkcyan">
-        The Gentle Hokage Family is a group of individual 
-            that met in <a href="https://kumu.ph/"> Kumu app.</a> It was created by group of gifters 
-            and supporters that aim to support aspiring streamers. It is where the gifters, 
-            supporters and streamers meet each other. </p> 
-        
-        
-    </p>
-    <p style="font-size:30px;color:darkcyan"> Objectives of GH </p>
-        <ul style="font-size:30px;color:darkcyan">                                        
-            <li>Learn how to stream</li>
-            <li>Learn how to make content</li>
-            <li>Support and Build each other</li>
-            <li>Help new aspiring streamer become a featured streamer</li>
-            <li>Build trust and friendship</li>
-            <li>Learn how to properly engage with streamers
-                <ul>
-                    <li> Gentle </li>
-                    <li>Respectful </li>
-                    <li>Kind </li>
-                    <li>Wholesome</li>
-                    <li>Generous</li>
-                    <li>Friendly to anyone</li>
-                    <li>Caring</li>
-                </ul> 
-            </li>
-        </ul>   
+    }
+     
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    nav {
+      width: 20%;
+      height:300px;
+      font-size:30px;
+      background:#b8fff9;
+      color:red;
+      padding: 20px;
+      float: left;
+    }
+    article{
+      width:80%;
+      height:300px;
+      font-size:30px;
+      float: right;
+      background:#42c2ff;
+      padding: 20px;
+      
+    }
     
-    <button onclick="history.back()" >Go Back</button>
-    
-</body>
-           
+    footer{
+      background-color: #EFFFFD;
+      width:100%;
+      height:100px;
+      padding: 8px;
+        font-size: 25px;
+      text-align:center;
+    }
 
-</html>
+    
+    @media (max-width:600px) {
+      nav, article {
+        width:100%;
+        height: auto;
+      }
+    }
+  ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     }
+</style>
+</head> 
+  
+  <body>
+    <header>
+      <img src="img/GHlogocircle.png" alt="GH Logo" width="100" height ="100"> 
+      <h1>The Gentle Hokage Family</h1> 
+    </header>
+ <section> 
+    <nav> 
+        <ul>
+          <li> <a href="Objective.html" style="color:#61a4bc"> Objectives </a> </li>
+          <li> <a href="Mission-Vision.html"  style="color:#61a4bc">Mission and Vision </a> </li>
+          <li> <a href="Future-Plans.html"  style="color:#61a4bc"> Future Plans </a> </li>
+          <li> <a href="Members.html"  style="color:#61a4bc"> Members </a> </li>
+          
+        </ul>
+     </nav>
+     
+     <article>  
+      <p style="color:white;" >The Gentle Hokage Family is a group of          individual 
+        that met in <a href="https://kumu.ph/"> Kumu app.</a> It was created by group          of gifters 
+        and supporters that aim to support aspiring streamers. It is where the                 gifters, 
+        supporters and streamers meet each other. </p> 
+      </article>
+ </section>
+      <footer>  <h3 style="color:#61A4bc"> Support each other. Build each other. </h3>
+      </footer>
+      <br>
+      <br>
+      <button onclick="history.back()">Go Back</button>
+  </body>
+</html>       
+    
+     
