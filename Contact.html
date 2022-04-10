@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <style>
+        body {font-family:Arial, Helvetica, sans-serif}
+        * {box-sizing: border-box;}
+
+        input [type=text], select, textarea {
+            width:100%;
+            padding:12px;
+            border:1px solid #ccc;
+            border-radius: 4px;
+            box-sizing:border-box;
+            margin-top: 6px;
+            margin-bottom:16px;
+            resize: vertical;
+       
+        }
+
+        input[type=submit] {
+            background-color: #04aa6d;
+            color:white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #56BBf1; 
+            padding: 30px;
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <h3 style="font-size:30px;color:#56BBF1; font-family: Arial, Helvetica, sans-serif">Contact Form</h3>
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Pat Alvin">
+                <br> 
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Sebullen"><br>
+                
+                <label for="Country">Country</label> 
+                <select id="country" name="country">
+                    <option value="Philippines">Philippines</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Dubai/Middle East">Dubai/Middle East</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Europe">Europe</option>
+                
+                <label for="subject">Subject</label>
+                <textarea name="subject" id="subject" placeholder="Write something.."
+                    style="height:200px"></textarea>
+                </select>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+        
+    </body>
+
+
+   
+
+</html>
